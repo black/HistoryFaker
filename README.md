@@ -1,4 +1,4 @@
 # HistoryFaker
-An app to repopulate Chrome history with fake links after clearing it
+## This extension deletes your browsing history and replaces it with a fake history.
 
-Project is pending...
+
