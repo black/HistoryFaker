@@ -1,24 +1,18 @@
 {
-    "name": "Fake History",
-    "description": "Generate fake history",
-    "version": "1.0",
-    "manifest_version": 2,
-    "permissions": ["alarms", "notifications", "storage"],
-    "background":
-    {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "browser_action":
-    {
-        "default_title": "Drink Water Event",
-        "default_popup": "app/popup.html"
-    },
-    "icons":
-    {
-        "16": "icons/icon_16.png",
-        "32": "icons/icon_32.png",
-        "48": "icons/icon_48.png",
-        "128": "icons/icon_128.png"
-    }
+  "manifest_version": 2,
+  "name": "Fake History",
+  "description": "This extension deletes your browsing history and replaces it with a fake history.",
+  "version": "1.0",
+  "permissions": [
+    "history",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "app/popup.html"
+  }
 }
